@@ -1,0 +1,37 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container:hover {
+  background-color: #f0efef;
+  cursor: pointer;
+}
+
+.container button {
+  cursor: pointer;
+  background: #ccc;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  background: #0704bd;
+  color: white;
+}
+
+.container button:last-child:hover {
+  background: #c50404;
+  color: white;
+}
+
+.container td {
+  text-align: start;
+  padding: 0.2rem;
+}
+
+.container td:last-child {
+  text-align: center;
+}

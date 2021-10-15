@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.App thead {
+  background: #ccc;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
 }
